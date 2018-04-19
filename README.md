@@ -13,5 +13,7 @@
   * 将本地master合并到远端master,将不需要commit的文件或者需要解决冲突的文件丢弃(discard)掉
   * 没问题推送到远端
   * 检出my-master，选择master,合并master到my-master
+#### 处理冲突
+  
 
 #### [参考文章](https://segmentfault.com/a/1190000005933855)
