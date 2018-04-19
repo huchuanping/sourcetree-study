@@ -1,5 +1,3 @@
-# sourcetree-study
-source-tree
 ## sourcetree 开发流程
 * 首先从主干上创建一个自己的分支出来
 * 每次开发先先从主分支上拉去最新代码
