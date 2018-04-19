@@ -1,8 +1,17 @@
-## sourcetree 开发流程
-* 首先从主干master上创建一个自己的分支出来，例如my-master
-* 每次开发先先从主分支上拉取最新代码（选中自己分支，然后拉取代码，要拉取的远程分支选择master）
-* 自己分支开发完成后推送到远程服务器上
-* 切换(checkout)到当前分支（选中分支右键选择‘检出xx’）,然后选中最新节点点击合并,或者选中另一个分支，右键点击‘合并xx至xx’
-* 确保已经切换到本地分支然后再开始工作（ 务必记住在开始代码编写工作前请先检出(checkout)切换到本地分支(Mille),直到工作完成）
+## sourcetree 
+### 准备工作
+首先创建一个自己的分支出来，例如my-master
+### 日常工作流程
+假设主分支master 自己分支my-master
+#### 上班第一件事就是从服务器拉取改动过的代码到本地合并
+   * 检出master，抓取所有远端更新，然后选中最新节点合并
+   * 检出自己分支，右击master，‘合并master到my-master‘(本地分支)这样合并代码就完成了
+   * 确保已经切换至本地分支my-master然后开始工作
+#### 下班最后一件事提交变更代码
+  * 将需要提交的代码提交到本地分支my-master
+  * 检出master,选择合并my-master到master
+  * 将本地master合并到远端master,将不需要commit的文件或者需要解决冲突的文件丢弃(discard)掉
+  * 没问题推送到远端
+  * 检出my-master，选择master,合并master到my-master
 
 #### [参考文章](https://segmentfault.com/a/1190000005933855)
