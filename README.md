@@ -14,6 +14,6 @@
   * 没问题推送到远端
   * 检出my-master，选择master,合并master到my-master
 #### 处理冲突
-  
+   gg 
 
 #### [参考文章](https://segmentfault.com/a/1190000005933855)
